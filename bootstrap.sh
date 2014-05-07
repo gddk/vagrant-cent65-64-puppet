@@ -10,6 +10,10 @@ echo "Setting the mysql root password back to empty string"
 echo "because the puppetlabs/mysql expects it that way"
 mysqladmin -u root -pmysql password ''
 
+echo "Make sure the modules DIR exists"
+mkdir -p /vagrant/puppet/modules
+
+
 echo "puppet module install puppetlabs-mysql --modulepath /vagrant/puppet/modules"
 puppet module install puppetlabs-mysql --modulepath /vagrant/puppet/modules
 
