@@ -6,6 +6,10 @@ if [ "$EUID" -ne "0" ] ; then
         exit 1
 fi
 
+echo "Setting the mysql root password back to empty string"
+echo "because the puppetlabs/mysql expects it that way"
+mysqladmin -u root -pmysql password ''
+
 echo "puppet module install puppetlabs-mysql --modulepath /vagrant/puppet/modules"
 puppet module install puppetlabs-mysql --modulepath /vagrant/puppet/modules
 
