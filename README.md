@@ -23,6 +23,9 @@ Since have added
 + puppet module install elasticsearch-logstash --modulepath /vagrant/puppet/modules
 + puppet module install saz-memcached --modulepath /vagrant/puppet/modules
 
+Then [https://github.com/gddk/vagrant-cent65-64-puppet/blob/master/puppet/manifests/site.pp site.pp] installs and configures mysql, memcached, and graphite.
+
+
 # What To Do
 
 ## Get vagrant installed on your desktop
