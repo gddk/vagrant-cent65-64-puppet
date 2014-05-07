@@ -1,4 +1,4 @@
-node 'monitorama.vm' { 
+node 'vbox.vm' { 
 	
 	## Configure mysql
 	class { '::mysql::server':
