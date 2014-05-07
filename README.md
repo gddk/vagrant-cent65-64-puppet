@@ -45,7 +45,7 @@ vagrant up
 ```
 
 ## Be amazed
-Watch and learn.  When it's done provisioning, you can SSH to it with vagrant/vagrant at 192.168.33.10
+When it's done provisioning, you can SSH to it with vagrant/vagrant at 192.168.33.10
 
 It should have graphite already up and running
 
