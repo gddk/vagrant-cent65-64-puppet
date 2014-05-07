@@ -22,4 +22,29 @@ Since have added
 + puppet module install elasticsearch-elasticsearch --modulepath /vagrant/puppet/modules
 + puppet module install elasticsearch-logstash --modulepath /vagrant/puppet/modules
 + puppet module install saz-memcached --modulepath /vagrant/puppet/modules
-+ 
+
+# What To Do
+
+## Get vagrant installed on your desktop
+```
+http://www.vagrantup.com/
+```
+
+## download this repo
+```
+git clone https://github.com/gddk/vagrant-cent65-64-puppet.git
+cd agrant-cent65-64-puppet
+```
+
+## Run vagrant up
+```
+vagrant up
+```
+
+## Be amazed
+Watch and learn.  When it's done provisioning, you can SSH to it with vagrant/vagrant at 192.168.33.10
+
+It should have graphite already up and running
+
+try [http://192.168.33.10/ http://192.168.33.10/] with your browser
+
