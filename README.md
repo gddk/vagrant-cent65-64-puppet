@@ -23,7 +23,7 @@ Since have added
 + puppet module install elasticsearch-logstash --modulepath /vagrant/puppet/modules
 + puppet module install saz-memcached --modulepath /vagrant/puppet/modules
 
-Then [[https://github.com/gddk/vagrant-cent65-64-puppet/blob/master/puppet/manifests/site.pp site.pp]] installs and configures mysql, memcached, and graphite.
+Then [https://github.com/gddk/vagrant-cent65-64-puppet/blob/master/puppet/manifests/site.pp](site.pp) installs and configures mysql, memcached, and graphite.
 
 
 # What To Do
@@ -49,5 +49,5 @@ Watch and learn.  When it's done provisioning, you can SSH to it with vagrant/va
 
 It should have graphite already up and running
 
-try [[http://192.168.33.10/ http://192.168.33.10/]] with your browser
+try [http://192.168.33.10/](http://192.168.33.10/) with your browser
 
