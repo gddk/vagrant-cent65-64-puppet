@@ -36,7 +36,7 @@ http://www.vagrantup.com/
 ## download this repo
 ```
 git clone https://github.com/gddk/vagrant-cent65-64-puppet.git
-cd agrant-cent65-64-puppet
+cd vagrant-cent65-64-puppet
 ```
 
 ## Run vagrant up
