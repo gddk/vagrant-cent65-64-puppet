@@ -6,10 +6,6 @@ if [ "$EUID" -ne "0" ] ; then
         exit 1
 fi
 
-echo "Setting the mysql root password back to empty string"
-echo "because the puppetlabs/mysql expects it that way"
-mysqladmin -u root -pmysql password ''
-
 echo "Make sure the modules DIR exists"
 mkdir -p /vagrant/puppet/modules
 
@@ -31,7 +27,5 @@ puppet module install elasticsearch-logstash --modulepath /vagrant/puppet/module
 
 echo "puppet module install saz-memcached --modulepath /vagrant/puppet/modules"
 puppet module install saz-memcached --modulepath /vagrant/puppet/modules
-
-
 
 exit 0

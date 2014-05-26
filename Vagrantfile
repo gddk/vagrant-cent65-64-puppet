@@ -6,9 +6,8 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Every vagrant virtual env requires a box to build off of
-  config.vm.box = "vagrant-cent65-64-puppet"
+  config.vm.box = "vagrant-cent65-64-puppet2"
   config.vm.box_url = "https://godaddy.box.com/shared/static/j6zfwin7c2o5prdpnwht.box"
-  config.vm.box = "vagrant-cent65-64-puppet"
   config.vm.hostname = "vbox.vm"
   config.vm.network :private_network, ip: "192.168.33.10"
   config.vm.network :forwarded_port, guest: 80, host: 8080
